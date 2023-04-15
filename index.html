@@ -13,18 +13,25 @@
     <p class="texto">
         Meu primeiro repositório Git
     </p>
+    <img src="https://treinarecife.com.br/wp-content/uploads/2020/12/treinaRecife_quadrada.png"
+    alt="Treina Recife logo"
+    width="500">
+
+
+
+
     <h2> Comandos Git mais utilizados
     </h2>
     <pre> 
-    git init
-    git clone
-    git add .
-    git status
-    git add
-    git commit -m "Mensagem"
-    git log
-    git log -n 3
-    git log --oneline
+    git init                      - criar novas pastas no diretorio local
+    git clone                     - pegar link no github 
+    git add .                     - salvar todas as mudanças feitas 
+    git status                    - saber como tá o rolê
+    git add                       - para adicionar um arquivo especifico (git add nome_arquivo)
+    git commit -m "Mensagem"      - para carregar todas as mudanças numa nova versão
+    git log                       - mostra as versões que ja fiz
+    git log -n 3                  - mostra alguma versão espesifica (nessa caso a 3ª)
+    git log --oneline             - mostra as versões em uma linha apenas 
     git push origin main
     git push origin +main (git push origin main --force)
     git fetch origin main
@@ -35,13 +42,11 @@
     git checkout -b
     git checkout
     git merge
-    git diff
+    git diff                    - para saber o que mudou
+    git restore --staged        - para tirar da area de staged (fica lá depois que eu dou o git add)
+    git restore                 - para de fato desfazer algo que fz antes (git restore nome_arquivo)
     </pre>
 
-
-
-
-    </pre>
     
 </body>
 </html>
